@@ -1,4 +1,4 @@
-function saveToLocalStorage(event) {
+function OrderReceipt(event) {
     event.preventDefault()
     const Price = event.target.price.value;
     const Dish = event.target.dish.value;
